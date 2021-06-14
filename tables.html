@@ -1,0 +1,91 @@
+
+<html>
+    <head>
+         <title>Maths Tables</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet"  href="bootstrap/css/fontawesome.css">
+    <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet"  href="bootstrap/css/mdb.css">
+	<link rel="stylesheet"  href="bootstrap/css/style.css">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-success mb-4">
+            <a href="#" class="navbar-brand">Multiplication Tables</a>
+        </nav>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col">
+                    <div class="card-header bg-secondary text-white">
+                     <h3> Maths Tables</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                          <label>Enter a Number</label>
+                                          <input  id="req-number"type="number" class="form-control" placeholder="Your Number">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label for="multiplier" class="form-label">Select The Multiplier</label>
+                                        <input type="range" class="custom-range form-control" id="multiplier" min="1" max="10" value="1">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--result section-->
+        <div class="container mt-3">
+            <div class="row align-item-center">
+                <div class="col">
+                    <div class="card-body border bg-light">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <H1 class="display-2">
+                                    <span id="number" class="badge badge-secondary">1</span>
+                                </H1>
+                            </div>
+                            <div class="col-md-2">
+                                <h1>
+                                    <i class="fa  fa-times fa-2x text-secondary"></i>
+                                </h1>
+                            </div>
+                            <div class="col-md-2">
+                                <H1 class="display-2">
+                                    <span id="multi" class="badge badge-secondary">1</span>
+                                </H1>
+                            </div>
+                            <div class="col-md-2">
+                                <h1>
+                                    <i class="fa  fa-equals fa-2x text-secondary"></i>
+                                </h1>
+                            </div>
+                            <div class="col-md-2">
+                                <H1 class="display-2">
+                                    <span id="result" class="badge badge-secondary">1</span>
+                                </H1>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/mdb.min.js"></script>
+    <script type="text/javascript" src="table.js"></script>
+</html>
